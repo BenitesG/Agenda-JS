@@ -1,0 +1,73 @@
+.col-lg {
+   width: 700px !important;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.row-login {
+   margin-top: 70px;
+}
+
+.password-rules p {
+    font-size: 13px;
+    margin-top: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.password-rules p.invalid {
+    color: #a9a9a9;
+}
+
+.password-rules p.invalid::before {
+    content: '❌';
+    position: absolute;
+    left: 0;
+}
+
+.password-rules p.valid {
+    color: green;
+}
+
+.password-rules p.valid::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+}
+
+.invalid {
+   margin: 0px;
+}
+
+.valid {
+   margin: 0px;
+}
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.success-text {
+    color: green;
+    font-weight: bold;
+}
+
+.messages {
+    min-height: 45px; 
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.password-rules {
+   margin-bottom: 20px;
+}

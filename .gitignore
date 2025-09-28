@@ -1,0 +1,42 @@
+# Arquivos de Dependências
+# A pasta node_modules é gerada automaticamente pelo `npm install`
+# e nunca deve ser enviada para o Git. Ela é muito pesada e específica da máquina.
+/node_modules
+
+# Arquivos de Log
+# Logs gerados pelo Node.js ou por pacotes como o npm.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Arquivos de Ambiente
+# O arquivo .env contém senhas e chaves secretas. NUNCA o versione!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de Build e Bundles
+# A pasta 'public' ou 'dist' geralmente contém arquivos gerados
+# pelo Webpack ou outras ferramentas de build. É melhor gerá-los
+# durante o processo de deploy do que versioná-los.
+/public/assets/js/bundle.js
+/public/assets/js/bundle.js.map
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs e Editores
+# Configurações específicas de editores como VS Code, Sublime, etc.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cobertura de Testes
+# Arquivos gerados por ferramentas de teste de cobertura.
+/coverage
+.nyc_output
