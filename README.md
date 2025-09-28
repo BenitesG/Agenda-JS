@@ -41,8 +41,8 @@ Para rodar este projeto em sua máquina local, siga os passos abaixo.
 
 **2. Clone o Repositório**
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <NOME_DA_PASTA_DO_PROJETO> 
+git clone https://github.com/BenitesG/Agenda-JS.git
+cd Agenda-JS
 ```
 
 **3. Instale as Dependências**
@@ -57,7 +57,7 @@ Este projeto usa um arquivo .env para gerenciar a string de conexão do banco de
 Crie um arquivo chamado .env na raiz do projeto.
 Adicione a seguinte linha, substituindo pelo endereço do seu banco de dados MongoDB:
 ```bash
-CONNECTIONSTRING=mongodb://localhost:27017/agenda
+CONNECTIONSTRING=mongodb+srv://user... (Configurar conforme servidor)
 ```
 
 **5. Compile os Assets do Front-end**
@@ -89,3 +89,5 @@ public/: Contém os arquivos estáticos finais, prontos para serem servidos ao n
 
 
 ### 📜 Licença
+
+Este projeto é distribuído sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/BenitesG/Agenda-JS/blob/main/LICENSE) para mais detalhes.
